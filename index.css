@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(./photos/laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 700px;
+    padding-top: 300px;
+}
+
+.icons{
+    display: none !important;
+}
+
+section:first-of-type div:hover > .icons{
+    display: flex !important;
+}
+
+.click p{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.click:hover img ,.click:hover p{
+    opacity: 1 !important;
+}
+
+i{
+    color: darkred;
+}
